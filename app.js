@@ -17,7 +17,7 @@ const app = express();
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
   
-  const mongoUrl = "mongodb+srv://damarjy:HouHou1432@cluster0.tayz7nb.mongodb.net/ecolink";
+  const mongoUrl = "mongodb+srv://achref:ei0gR8waLO5fQ1xL@cluster0.08acjuy.mongodb.net/ecolinkhub";
 
   mongoose
   .connect(mongoUrl, {
